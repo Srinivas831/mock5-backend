@@ -1,7 +1,8 @@
-const express=require("express");
 const cors=require("cors");
 const { connection } = require("./db");
 const { contactRouter } = require("./routes/contacts");
+
+const express=require("express");
 
 const app=express();
 
